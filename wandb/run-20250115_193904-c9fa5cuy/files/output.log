@@ -1,0 +1,6 @@
+Using cuda
+Training samples: 192, Validation samples: 48
+Traceback (most recent call last):
+  File "C:\Users\Codeexia\FinalSemester\Thesis\practice\AI_project\pytorchforaudio\10 Predictions with sound classifier\train.py", line 109, in <module>
+    model = CNNNetwork(num_classes=len(SELECTED_CLASSES)).to(device)  # No input_size
+TypeError: CNNNetwork.__init__() got an unexpected keyword argument 'num_classes'

@@ -1,0 +1,34 @@
+Using cuda
+Training samples: 192, Validation samples: 48
+Epoch 1/10
+Validation Loss: 2.3229
+---------------------------
+Epoch 2/10
+Validation Loss: 2.2394
+---------------------------
+Epoch 3/10
+Validation Loss: 2.1119
+---------------------------
+Epoch 4/10
+Validation Loss: 2.2530
+---------------------------
+Epoch 5/10
+Validation Loss: 2.2226
+---------------------------
+Epoch 6/10
+Validation Loss: 2.3341
+---------------------------
+Epoch 7/10
+Validation Loss: 2.3185
+---------------------------
+Epoch 8/10
+Validation Loss: 2.3164
+---------------------------
+Epoch 9/10
+Validation Loss: 2.3184
+---------------------------
+Epoch 10/10
+Validation Loss: 2.3162
+---------------------------
+Training complete.
+Model saved as esc50_urban_model.pth

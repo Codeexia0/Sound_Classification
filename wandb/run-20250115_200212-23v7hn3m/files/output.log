@@ -1,0 +1,17 @@
+Using cuda
+Traceback (most recent call last):
+  File "C:\Users\Codeexia\FinalSemester\Thesis\practice\AI_project\pytorchforaudio\10 Predictions with sound classifier\train.py", line 92, in <module>
+    for signal, label in dataset:
+  File "C:\Users\Codeexia\FinalSemester\Thesis\practice\AI_project\pytorchforaudio\10 Predictions with sound classifier\urbansounddataset.py", line 31, in __getitem__
+    signal = self._resample_if_necessary(signal, sr)
+  File "C:\Users\Codeexia\FinalSemester\Thesis\practice\AI_project\pytorchforaudio\10 Predictions with sound classifier\urbansounddataset.py", line 54, in _resample_if_necessary
+    signal = resampler(signal)
+  File "C:\Users\Codeexia\FinalSemester\Thesis\practice\.venv\lib\site-packages\torch\nn\modules\module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "C:\Users\Codeexia\FinalSemester\Thesis\practice\.venv\lib\site-packages\torch\nn\modules\module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "C:\Users\Codeexia\FinalSemester\Thesis\practice\.venv\lib\site-packages\torchaudio\transforms\_transforms.py", line 979, in forward
+    return _apply_sinc_resample_kernel(waveform, self.orig_freq, self.new_freq, self.gcd, self.kernel, self.width)
+  File "C:\Users\Codeexia\FinalSemester\Thesis\practice\.venv\lib\site-packages\torchaudio\functional\functional.py", line 1466, in _apply_sinc_resample_kernel
+    resampled = torch.nn.functional.conv1d(waveform[:, None], kernel, stride=orig_freq)
+RuntimeError: Input type (torch.cuda.FloatTensor) and weight type (torch.FloatTensor) should be the same

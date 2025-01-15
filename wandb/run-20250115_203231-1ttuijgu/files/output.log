@@ -1,0 +1,304 @@
+Using cuda
+Training samples: 192, Validation samples: 48
+Epoch 1/100
+Validation Loss: 2.2862
+---------------------------
+Epoch 2/100
+Validation Loss: 2.2885
+---------------------------
+Epoch 3/100
+Validation Loss: 2.3303
+---------------------------
+Epoch 4/100
+Validation Loss: 2.2994
+---------------------------
+Epoch 5/100
+Validation Loss: 2.2552
+---------------------------
+Epoch 6/100
+Validation Loss: 2.2865
+---------------------------
+Epoch 7/100
+Validation Loss: 2.3021
+---------------------------
+Epoch 8/100
+Validation Loss: 2.3149
+---------------------------
+Epoch 9/100
+Validation Loss: 2.3149
+---------------------------
+Epoch 10/100
+Validation Loss: 2.3460
+---------------------------
+Epoch 11/100
+Validation Loss: 2.2866
+---------------------------
+Epoch 12/100
+Validation Loss: 2.3019
+---------------------------
+Epoch 13/100
+Validation Loss: 2.3148
+---------------------------
+Epoch 14/100
+Validation Loss: 2.3334
+---------------------------
+Epoch 15/100
+Validation Loss: 2.3179
+---------------------------
+Epoch 16/100
+Validation Loss: 2.3023
+---------------------------
+Epoch 17/100
+Validation Loss: 2.2996
+---------------------------
+Epoch 18/100
+Validation Loss: 2.2839
+---------------------------
+Epoch 19/100
+Validation Loss: 2.3152
+---------------------------
+Epoch 20/100
+Validation Loss: 2.2996
+---------------------------
+Epoch 21/100
+Validation Loss: 2.3309
+---------------------------
+Epoch 22/100
+Validation Loss: 2.3335
+---------------------------
+Epoch 23/100
+Validation Loss: 2.2996
+---------------------------
+Epoch 24/100
+Validation Loss: 2.3179
+---------------------------
+Epoch 25/100
+Validation Loss: 2.3023
+---------------------------
+Epoch 26/100
+Validation Loss: 2.3335
+---------------------------
+Epoch 27/100
+Validation Loss: 2.3308
+---------------------------
+Epoch 28/100
+Validation Loss: 2.3491
+---------------------------
+Epoch 29/100
+Validation Loss: 2.2995
+---------------------------
+Epoch 30/100
+Validation Loss: 2.3022
+---------------------------
+Epoch 31/100
+Validation Loss: 2.3022
+---------------------------
+Epoch 32/100
+Validation Loss: 2.2839
+---------------------------
+Epoch 33/100
+Validation Loss: 2.2995
+---------------------------
+Epoch 34/100
+Validation Loss: 2.3334
+---------------------------
+Epoch 35/100
+Validation Loss: 2.3178
+---------------------------
+Epoch 36/100
+Validation Loss: 2.3151
+---------------------------
+Epoch 37/100
+Validation Loss: 2.3334
+---------------------------
+Epoch 38/100
+Validation Loss: 2.3022
+---------------------------
+Epoch 39/100
+Validation Loss: 2.3490
+---------------------------
+Epoch 40/100
+Validation Loss: 2.2865
+---------------------------
+Epoch 41/100
+Validation Loss: 2.3150
+---------------------------
+Epoch 42/100
+Validation Loss: 2.2837
+---------------------------
+Epoch 43/100
+Validation Loss: 2.2994
+---------------------------
+Epoch 44/100
+Validation Loss: 2.3462
+---------------------------
+Epoch 45/100
+Validation Loss: 2.3150
+---------------------------
+Epoch 46/100
+Validation Loss: 2.3177
+---------------------------
+Epoch 47/100
+Validation Loss: 2.3462
+---------------------------
+Epoch 48/100
+Validation Loss: 2.2865
+---------------------------
+Epoch 49/100
+Validation Loss: 2.3021
+---------------------------
+Epoch 50/100
+Validation Loss: 2.2680
+---------------------------
+Epoch 51/100
+Validation Loss: 2.3333
+---------------------------
+Epoch 52/100
+Validation Loss: 2.3333
+---------------------------
+Epoch 53/100
+Validation Loss: 2.3304
+---------------------------
+Epoch 54/100
+Validation Loss: 2.3332
+---------------------------
+Epoch 55/100
+Validation Loss: 2.3146
+---------------------------
+Epoch 56/100
+Validation Loss: 2.3331
+---------------------------
+Epoch 57/100
+Validation Loss: 2.2862
+---------------------------
+Epoch 58/100
+Validation Loss: 2.3174
+---------------------------
+Epoch 59/100
+Validation Loss: 2.3017
+---------------------------
+Epoch 60/100
+Validation Loss: 2.3017
+---------------------------
+Epoch 61/100
+Validation Loss: 2.3172
+---------------------------
+Epoch 62/100
+Validation Loss: 2.3171
+---------------------------
+Epoch 63/100
+Validation Loss: 2.2858
+---------------------------
+Epoch 64/100
+Validation Loss: 2.3012
+---------------------------
+Epoch 65/100
+Validation Loss: 2.3166
+---------------------------
+Epoch 66/100
+Validation Loss: 2.3123
+---------------------------
+Epoch 67/100
+Validation Loss: 2.3316
+---------------------------
+Epoch 68/100
+Validation Loss: 2.3152
+---------------------------
+Epoch 69/100
+Validation Loss: 2.3259
+---------------------------
+Epoch 70/100
+Validation Loss: 2.3107
+---------------------------
+Epoch 71/100
+Validation Loss: 2.2859
+---------------------------
+Epoch 72/100
+Validation Loss: 2.3461
+---------------------------
+Epoch 73/100
+Validation Loss: 2.3179
+---------------------------
+Epoch 74/100
+Validation Loss: 2.3194
+---------------------------
+Epoch 75/100
+Validation Loss: 2.3343
+---------------------------
+Epoch 76/100
+Validation Loss: 2.3353
+---------------------------
+Epoch 77/100
+Validation Loss: 2.3046
+---------------------------
+Epoch 78/100
+Validation Loss: 2.2732
+---------------------------
+Epoch 79/100
+Validation Loss: 2.3204
+---------------------------
+Epoch 80/100
+Validation Loss: 2.2891
+---------------------------
+Epoch 81/100
+Validation Loss: 2.3986
+---------------------------
+Epoch 82/100
+Validation Loss: 2.3987
+---------------------------
+Epoch 83/100
+Validation Loss: 2.3987
+---------------------------
+Epoch 84/100
+Validation Loss: 2.3830
+---------------------------
+Epoch 85/100
+Validation Loss: 2.3987
+---------------------------
+Epoch 86/100
+Validation Loss: 2.3674
+---------------------------
+Epoch 87/100
+Validation Loss: 2.3674
+---------------------------
+Epoch 88/100
+Validation Loss: 2.3987
+---------------------------
+Epoch 89/100
+Validation Loss: 2.3987
+---------------------------
+Epoch 90/100
+Validation Loss: 2.3674
+---------------------------
+Epoch 91/100
+Validation Loss: 2.3674
+---------------------------
+Epoch 92/100
+Validation Loss: 2.3830
+---------------------------
+Epoch 93/100
+Validation Loss: 2.3830
+---------------------------
+Epoch 94/100
+Validation Loss: 2.3830
+---------------------------
+Epoch 95/100
+Validation Loss: 2.3830
+---------------------------
+Epoch 96/100
+Validation Loss: 2.3830
+---------------------------
+Epoch 97/100
+Validation Loss: 2.3674
+---------------------------
+Epoch 98/100
+Validation Loss: 2.3830
+---------------------------
+Epoch 99/100
+Validation Loss: 2.3987
+---------------------------
+Epoch 100/100
+Validation Loss: 2.3830
+---------------------------
+Training complete.
+Model saved as esc50_urban_model.pth

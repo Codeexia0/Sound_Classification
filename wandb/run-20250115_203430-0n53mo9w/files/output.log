@@ -1,0 +1,29 @@
+Using cuda
+Training samples: 192, Validation samples: 48
+Epoch 1/100
+Traceback (most recent call last):
+  File "C:\Users\Codeexia\FinalSemester\Thesis\practice\AI_project\pytorchforaudio\10 Predictions with sound classifier\train.py", line 119, in <module>
+    train_and_validate(model, train_loader, val_loader, loss_fn, optimizer, device, EPOCHS)
+  File "C:\Users\Codeexia\FinalSemester\Thesis\practice\AI_project\pytorchforaudio\10 Predictions with sound classifier\train.py", line 64, in train_and_validate
+    train_single_epoch(model, train_loader, loss_fn, optimiser, device)
+  File "C:\Users\Codeexia\FinalSemester\Thesis\practice\AI_project\pytorchforaudio\10 Predictions with sound classifier\train.py", line 41, in train_single_epoch
+    predictions = model(inputs)
+  File "C:\Users\Codeexia\FinalSemester\Thesis\practice\.venv\lib\site-packages\torch\nn\modules\module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "C:\Users\Codeexia\FinalSemester\Thesis\practice\.venv\lib\site-packages\torch\nn\modules\module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "C:\Users\Codeexia\FinalSemester\Thesis\practice\AI_project\pytorchforaudio\10 Predictions with sound classifier\cnn.py", line 82, in forward
+    logits = self.fc_layers(x)
+  File "C:\Users\Codeexia\FinalSemester\Thesis\practice\.venv\lib\site-packages\torch\nn\modules\module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "C:\Users\Codeexia\FinalSemester\Thesis\practice\.venv\lib\site-packages\torch\nn\modules\module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "C:\Users\Codeexia\FinalSemester\Thesis\practice\.venv\lib\site-packages\torch\nn\modules\container.py", line 250, in forward
+    input = module(input)
+  File "C:\Users\Codeexia\FinalSemester\Thesis\practice\.venv\lib\site-packages\torch\nn\modules\module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "C:\Users\Codeexia\FinalSemester\Thesis\practice\.venv\lib\site-packages\torch\nn\modules\module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "C:\Users\Codeexia\FinalSemester\Thesis\practice\.venv\lib\site-packages\torch\nn\modules\linear.py", line 125, in forward
+    return F.linear(input, self.weight, self.bias)
+RuntimeError: mat1 and mat2 shapes cannot be multiplied (32x1024 and 2560x128)
