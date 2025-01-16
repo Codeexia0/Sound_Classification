@@ -1,6 +1,7 @@
 from torch import nn
 from torchsummary import summary
-
+from torch.optim.lr_scheduler import ReduceLROnPlateau
+import torch 
 
 class CNNNetwork(nn.Module):
 
@@ -64,7 +65,7 @@ class CNNNetwork(nn.Module):
         # Fully connected layers
         self.flatten = nn.Flatten()
         self.fc_layers = nn.Sequential(
-            nn.Linear(1024, 128),  # Adjust for flattened size based on input
+            nn.Linear(4608, 128),  # Adjust for flattened size based on input
             nn.ReLU(),
             nn.Dropout(0.5),
             nn.Linear(128, 256),
@@ -85,4 +86,6 @@ class CNNNetwork(nn.Module):
 
 if __name__ == "__main__":
     model = CNNNetwork()
+    optimizer = torch.optim.Adam(model.parameters(), lr=0.001)
+    scheduler = ReduceLROnPlateau(optimizer, mode='min', patience=10, factor=0.5)
     summary(model.cuda(), (1, 64, 87))

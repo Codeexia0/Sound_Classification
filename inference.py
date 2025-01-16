@@ -1,5 +1,7 @@
 import torch
 import torchaudio
+import matplotlib.pyplot as plt
+import seaborn as sns
 from cnn import CNNNetwork
 from urbansounddataset import ESC50Dataset
 from train import AUDIO_DIR, ANNOTATIONS_FILE, SAMPLE_RATE, NUM_SAMPLES
@@ -22,6 +24,36 @@ def predict(model, input, class_mapping):
         predicted_index = predictions[0].argmax(0).item()
         predicted = class_mapping[predicted_index]
     return predicted, predicted_index
+
+def plot_class_distribution(predictions, class_mapping):
+    plt.figure(figsize=(10, 6))
+    sns.countplot(x=predictions, order=range(len(class_mapping)), palette="viridis") # Countplot for class distribution
+    plt.xticks(range(len(class_mapping)), class_mapping, rotation=45)
+    plt.title("Class-Wise Prediction Distribution")
+    plt.xlabel("Classes")
+    plt.ylabel("Count")
+    plt.show()
+
+def plot_confusion_matrix(true_labels, predicted_labels, class_mapping):
+    from sklearn.metrics import confusion_matrix
+    cm = confusion_matrix(true_labels, predicted_labels, labels=range(len(class_mapping))) # Compute confusion matrix
+    plt.figure(figsize=(8, 6))
+    sns.heatmap(cm, annot=True, fmt="d", xticklabels=class_mapping, yticklabels=class_mapping, cmap="Blues")
+    plt.title("Confusion Matrix")
+    plt.xlabel("Predicted Class")
+    plt.ylabel("True Class")
+    plt.show()
+
+def visualize_sample_spectrogram(dataset, sample_index):
+    sample, _ = dataset[sample_index]
+    spectrogram = sample.squeeze().numpy() # Remove batch dimension
+    plt.figure(figsize=(10, 4))
+    plt.imshow(spectrogram, aspect="auto", origin="lower", cmap="viridis")
+    plt.colorbar(format="%+2.0f dB")
+    plt.title(f"Spectrogram of Sample {sample_index}")
+    plt.xlabel("Time Frames")
+    plt.ylabel("Mel Bands")
+    plt.show()
 
 if __name__ == "__main__":
     # Load the trained model
@@ -51,25 +83,26 @@ if __name__ == "__main__":
     )
 
     # Test on the entire dataset
-    correct_predictions = 0
-    total_samples = len(usd)
+    true_labels = []
+    predicted_labels = []
+    predictions = []
 
-    for i in range(total_samples):
+    for i in range(len(usd)):
         input, target = usd[i]
         input.unsqueeze_(0)  # Add batch dimension
         predicted, predicted_index = predict(cnn, input, class_mapping)
+
+        true_labels.append(target)
+        predicted_labels.append(predicted_index)
+        predictions.append(predicted_index)
+
         expected = class_mapping[target]
+        print(f"Sample {i + 1}/{len(usd)} - Predicted: '{predicted}', Expected: '{expected}'")
 
-        # Check if prediction is correct
-        is_correct = predicted_index == target
-        result = "Correct" if is_correct else "Incorrect"
+    # Visualization
+    plot_class_distribution(predictions, class_mapping)
+    plot_confusion_matrix(true_labels, predicted_labels, class_mapping)
 
-        if is_correct:
-            correct_predictions += 1
-
-        print(f"Sample {i + 1}/{total_samples} - Predicted: '{predicted}', Expected: '{expected}' - {result}")
-
-    # Calculate and display accuracy
-    accuracy = (correct_predictions / total_samples) * 100
-    print(f"\nTotal Correct Predictions: {correct_predictions}/{total_samples}")
-    print(f"Accuracy: {accuracy:.2f}%")
+    # Visualize spectrogram for a specific sample
+    sample_index = 10  # Change as needed
+    visualize_sample_spectrogram(usd, sample_index)
