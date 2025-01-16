@@ -29,10 +29,11 @@ Each audio sample is preprocessed into Mel spectrograms for input into the CNN m
   - Epochs: 500
   - Learning rate: 0.001
 
-### Training
+### Training and Validation
 - **Loss Function**: Cross-Entropy Loss
 - **Optimizer**: Adam optimizer with learning rate scheduling using ReduceLROnPlateau.
-- **Training and Validation**: Monitored loss and accuracy over epochs using WandB for visualization.
+- **Training and Validation**: Monitored loss and accuracy over epochs using [Weights & Biases (WandB)](https://wandb.ai/codeexia0/esc50_urban_classification?nw=nwusercodeexia) for visualization and experiment tracking.
+
 
 ### Inference
 - Implemented inference pipeline to test the trained model on unseen data.
