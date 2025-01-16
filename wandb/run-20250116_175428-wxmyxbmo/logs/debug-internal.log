@@ -1,0 +1,15 @@
+{"time":"2025-01-16T17:54:28.9271494+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.2","symlink path":"C:\\Users\\Codeexia\\FinalSemester\\Thesis\\practice\\AI_project\\pytorchforaudio\\sound_classification_CNN\\wandb\\run-20250116_175428-wxmyxbmo\\logs\\debug-core.log"}
+{"time":"2025-01-16T17:54:29.0426696+01:00","level":"INFO","msg":"created new stream","id":"wxmyxbmo"}
+{"time":"2025-01-16T17:54:29.0431742+01:00","level":"INFO","msg":"stream: started","id":"wxmyxbmo"}
+{"time":"2025-01-16T17:54:29.0431742+01:00","level":"INFO","msg":"handler: started","stream_id":"wxmyxbmo"}
+{"time":"2025-01-16T17:54:29.0432292+01:00","level":"INFO","msg":"sender: started","stream_id":"wxmyxbmo"}
+{"time":"2025-01-16T17:54:29.0432292+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"wxmyxbmo"}
+{"time":"2025-01-16T17:54:29.3165089+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-01-16T17:54:45.0640684+01:00","level":"INFO","msg":"stream: closing","id":"wxmyxbmo"}
+{"time":"2025-01-16T17:54:45.065101+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-01-16T17:54:45.0697705+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-01-16T17:54:45.6804036+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-01-16T17:54:45.8715654+01:00","level":"INFO","msg":"handler: closed","stream_id":"wxmyxbmo"}
+{"time":"2025-01-16T17:54:45.8715654+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"wxmyxbmo"}
+{"time":"2025-01-16T17:54:45.8715654+01:00","level":"INFO","msg":"sender: closed","stream_id":"wxmyxbmo"}
+{"time":"2025-01-16T17:54:45.872181+01:00","level":"INFO","msg":"stream: closed","id":"wxmyxbmo"}

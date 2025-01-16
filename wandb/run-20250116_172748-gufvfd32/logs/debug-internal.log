@@ -1,0 +1,15 @@
+{"time":"2025-01-16T17:27:49.0186896+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.2","symlink path":"C:\\Users\\Codeexia\\FinalSemester\\Thesis\\practice\\AI_project\\pytorchforaudio\\sound_classification_CNN\\wandb\\run-20250116_172748-gufvfd32\\logs\\debug-core.log"}
+{"time":"2025-01-16T17:27:49.1441413+01:00","level":"INFO","msg":"created new stream","id":"gufvfd32"}
+{"time":"2025-01-16T17:27:49.1447556+01:00","level":"INFO","msg":"stream: started","id":"gufvfd32"}
+{"time":"2025-01-16T17:27:49.144645+01:00","level":"INFO","msg":"handler: started","stream_id":"gufvfd32"}
+{"time":"2025-01-16T17:27:49.1447556+01:00","level":"INFO","msg":"sender: started","stream_id":"gufvfd32"}
+{"time":"2025-01-16T17:27:49.1447556+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"gufvfd32"}
+{"time":"2025-01-16T17:27:49.4699975+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-01-16T17:28:04.910397+01:00","level":"INFO","msg":"stream: closing","id":"gufvfd32"}
+{"time":"2025-01-16T17:28:04.91265+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-01-16T17:28:04.9172716+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-01-16T17:28:05.65402+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-01-16T17:28:05.8429241+01:00","level":"INFO","msg":"handler: closed","stream_id":"gufvfd32"}
+{"time":"2025-01-16T17:28:05.8429241+01:00","level":"INFO","msg":"sender: closed","stream_id":"gufvfd32"}
+{"time":"2025-01-16T17:28:05.8429241+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"gufvfd32"}
+{"time":"2025-01-16T17:28:05.8429241+01:00","level":"INFO","msg":"stream: closed","id":"gufvfd32"}

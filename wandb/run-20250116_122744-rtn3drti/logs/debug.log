@@ -1,0 +1,41 @@
+2025-01-16 12:27:44,169 INFO    MainThread:21532 [wandb_setup.py:_flush():68] Current SDK version is 0.19.2
+2025-01-16 12:27:44,169 INFO    MainThread:21532 [wandb_setup.py:_flush():68] Configure stats pid to 21532
+2025-01-16 12:27:44,170 INFO    MainThread:21532 [wandb_setup.py:_flush():68] Loading settings from C:\Users\Codeexia\.config\wandb\settings
+2025-01-16 12:27:44,170 INFO    MainThread:21532 [wandb_setup.py:_flush():68] Loading settings from C:\Users\Codeexia\FinalSemester\Thesis\practice\AI_project\pytorchforaudio\sound_classification_CNN\wandb\settings
+2025-01-16 12:27:44,170 INFO    MainThread:21532 [wandb_setup.py:_flush():68] Loading settings from environment variables
+2025-01-16 12:27:44,171 INFO    MainThread:21532 [wandb_init.py:_log_setup():523] Logging user logs to C:\Users\Codeexia\FinalSemester\Thesis\practice\AI_project\pytorchforaudio\sound_classification_CNN\wandb\run-20250116_122744-rtn3drti\logs\debug.log
+2025-01-16 12:27:44,172 INFO    MainThread:21532 [wandb_init.py:_log_setup():524] Logging internal logs to C:\Users\Codeexia\FinalSemester\Thesis\practice\AI_project\pytorchforaudio\sound_classification_CNN\wandb\run-20250116_122744-rtn3drti\logs\debug-internal.log
+2025-01-16 12:27:44,172 INFO    MainThread:21532 [wandb_init.py:init():641] calling init triggers
+2025-01-16 12:27:44,173 INFO    MainThread:21532 [wandb_init.py:init():647] wandb.init called with sweep_config: {}
+config: {}
+2025-01-16 12:27:44,173 INFO    MainThread:21532 [wandb_init.py:init():674] starting backend
+2025-01-16 12:27:44,462 INFO    MainThread:21532 [wandb_init.py:init():678] sending inform_init request
+2025-01-16 12:27:44,526 INFO    MainThread:21532 [backend.py:_multiprocessing_setup():104] multiprocessing start_methods=spawn, using: spawn
+2025-01-16 12:27:44,529 INFO    MainThread:21532 [wandb_init.py:init():693] backend started and connected
+2025-01-16 12:27:44,532 INFO    MainThread:21532 [wandb_init.py:init():786] updated telemetry
+2025-01-16 12:27:44,711 INFO    MainThread:21532 [wandb_init.py:init():818] communicating run to backend with 90.0 second timeout
+2025-01-16 12:28:33,378 INFO    MainThread:21532 [wandb_init.py:init():868] starting run threads in backend
+2025-01-16 12:28:34,713 WARNING MainThread:21532 [wandb_init.py:init():1293] interrupted
+Traceback (most recent call last):
+  File "C:\Users\Codeexia\FinalSemester\Thesis\practice\.venv\lib\site-packages\wandb\sdk\wandb_init.py", line 1289, in init
+    return wi.init()
+  File "C:\Users\Codeexia\FinalSemester\Thesis\practice\.venv\lib\site-packages\wandb\sdk\wandb_init.py", line 909, in init
+    run._on_start()
+  File "C:\Users\Codeexia\FinalSemester\Thesis\practice\.venv\lib\site-packages\wandb\sdk\wandb_run.py", line 2450, in _on_start
+    self._backend.interface.publish_python_packages(working_set())
+  File "C:\Users\Codeexia\FinalSemester\Thesis\practice\.venv\lib\site-packages\wandb\sdk\interface\interface.py", line 335, in publish_python_packages
+    for pkg in working_set:
+  File "C:\Users\Codeexia\FinalSemester\Thesis\practice\.venv\lib\site-packages\wandb\util.py", line 1903, in working_set
+    yield InstalledDistribution(key=d.metadata["Name"], version=d.version)
+  File "C:\Users\Codeexia\AppData\Local\Programs\Python\Python310\lib\importlib\metadata\__init__.py", line 605, in metadata
+    self.read_text('METADATA')
+  File "C:\Users\Codeexia\AppData\Local\Programs\Python\Python310\lib\importlib\metadata\__init__.py", line 927, in read_text
+    return self._path.joinpath(filename).read_text(encoding='utf-8')
+  File "C:\Users\Codeexia\AppData\Local\Programs\Python\Python310\lib\pathlib.py", line 1134, in read_text
+    with self.open(mode='r', encoding=encoding, errors=errors) as f:
+  File "C:\Users\Codeexia\AppData\Local\Programs\Python\Python310\lib\pathlib.py", line 1119, in open
+    return self._accessor.open(self, mode, buffering, encoding, errors,
+  File "C:\Users\Codeexia\AppData\Local\Programs\Python\Python310\lib\codecs.py", line 309, in __init__
+    def __init__(self, errors='strict'):
+KeyboardInterrupt
+2025-01-16 12:28:34,814 WARNING MsgRouterThr:21532 [router.py:message_loop():75] message_loop has been closed

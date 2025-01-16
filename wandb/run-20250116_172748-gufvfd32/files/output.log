@@ -1,0 +1,154 @@
+Using cuda
+Training samples: 192, Validation samples: 48
+Epoch 1/50
+Training Loss: 2.1884, Validation Loss: 2.0593
+---------------------------
+Epoch 2/50
+Training Loss: 1.9095, Validation Loss: 1.9044
+---------------------------
+Epoch 3/50
+Training Loss: 1.8409, Validation Loss: 1.7806
+---------------------------
+Epoch 4/50
+Training Loss: 1.6884, Validation Loss: 1.7287
+---------------------------
+Epoch 5/50
+Training Loss: 1.6282, Validation Loss: 1.6190
+---------------------------
+Epoch 6/50
+Training Loss: 1.6250, Validation Loss: 1.6274
+---------------------------
+Epoch 7/50
+Training Loss: 1.5408, Validation Loss: 1.6531
+---------------------------
+Epoch 8/50
+Training Loss: 1.5348, Validation Loss: 1.6415
+---------------------------
+Epoch 9/50
+Training Loss: 1.4495, Validation Loss: 1.5880
+---------------------------
+Epoch 10/50
+Training Loss: 1.4718, Validation Loss: 1.6029
+---------------------------
+Epoch 11/50
+Training Loss: 1.4623, Validation Loss: 1.6258
+---------------------------
+Epoch 12/50
+Training Loss: 1.4262, Validation Loss: 1.6540
+---------------------------
+Epoch 13/50
+Training Loss: 1.4487, Validation Loss: 1.7503
+---------------------------
+Epoch 14/50
+Training Loss: 1.3669, Validation Loss: 1.6320
+---------------------------
+Epoch 15/50
+Training Loss: 1.3749, Validation Loss: 1.5470
+---------------------------
+Epoch 16/50
+Training Loss: 1.2932, Validation Loss: 1.4896
+---------------------------
+Epoch 17/50
+Training Loss: 1.2644, Validation Loss: 1.5145
+---------------------------
+Epoch 18/50
+Training Loss: 1.2571, Validation Loss: 1.6370
+---------------------------
+Epoch 19/50
+Training Loss: 1.2613, Validation Loss: 1.5577
+---------------------------
+Epoch 20/50
+Training Loss: 1.1811, Validation Loss: 1.6057
+---------------------------
+Epoch 21/50
+Training Loss: 1.3330, Validation Loss: 1.6215
+---------------------------
+Epoch 22/50
+Training Loss: 1.2011, Validation Loss: 1.6088
+---------------------------
+Epoch 23/50
+Training Loss: 1.0921, Validation Loss: 1.5191
+---------------------------
+Epoch 24/50
+Training Loss: 1.1816, Validation Loss: 1.5242
+---------------------------
+Epoch 25/50
+Training Loss: 1.0976, Validation Loss: 1.7937
+---------------------------
+Epoch 26/50
+Training Loss: 1.0763, Validation Loss: 1.5638
+---------------------------
+Epoch 27/50
+Training Loss: 1.0832, Validation Loss: 1.5455
+---------------------------
+Epoch 28/50
+Training Loss: 1.0202, Validation Loss: 1.7361
+---------------------------
+Epoch 29/50
+Training Loss: 1.0134, Validation Loss: 1.5663
+---------------------------
+Epoch 30/50
+Training Loss: 1.0682, Validation Loss: 1.8376
+---------------------------
+Epoch 31/50
+Training Loss: 1.0483, Validation Loss: 1.8815
+---------------------------
+Epoch 32/50
+Training Loss: 0.9751, Validation Loss: 1.4742
+---------------------------
+Epoch 33/50
+Training Loss: 1.0730, Validation Loss: 1.3711
+---------------------------
+Epoch 34/50
+Training Loss: 0.9577, Validation Loss: 1.4373
+---------------------------
+Epoch 35/50
+Training Loss: 1.0297, Validation Loss: 1.3316
+---------------------------
+Epoch 36/50
+Training Loss: 0.9354, Validation Loss: 1.6667
+---------------------------
+Epoch 37/50
+Training Loss: 1.0091, Validation Loss: 1.5694
+---------------------------
+Epoch 38/50
+Training Loss: 0.9519, Validation Loss: 1.6165
+---------------------------
+Epoch 39/50
+Training Loss: 1.0020, Validation Loss: 1.5920
+---------------------------
+Epoch 40/50
+Training Loss: 0.9651, Validation Loss: 1.5889
+---------------------------
+Epoch 41/50
+Training Loss: 0.9345, Validation Loss: 1.6894
+---------------------------
+Epoch 42/50
+Training Loss: 0.8635, Validation Loss: 1.6702
+---------------------------
+Epoch 43/50
+Training Loss: 0.9315, Validation Loss: 1.8998
+---------------------------
+Epoch 44/50
+Training Loss: 0.9083, Validation Loss: 1.8039
+---------------------------
+Epoch 45/50
+Training Loss: 0.9195, Validation Loss: 2.0151
+---------------------------
+Epoch 46/50
+Training Loss: 0.9210, Validation Loss: 1.5401
+---------------------------
+Epoch 47/50
+Training Loss: 0.9906, Validation Loss: 1.5677
+---------------------------
+Epoch 48/50
+Training Loss: 0.8516, Validation Loss: 1.6542
+---------------------------
+Epoch 49/50
+Training Loss: 0.8845, Validation Loss: 1.4541
+---------------------------
+Epoch 50/50
+Training Loss: 0.8642, Validation Loss: 1.3721
+---------------------------
+Training complete.
+Model saved as esc50_urban_model4.pth

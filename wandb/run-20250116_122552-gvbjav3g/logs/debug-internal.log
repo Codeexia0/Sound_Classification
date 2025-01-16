@@ -1,0 +1,19 @@
+{"time":"2025-01-16T12:25:53.3716181+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.2","symlink path":"C:\\Users\\Codeexia\\FinalSemester\\Thesis\\practice\\AI_project\\pytorchforaudio\\sound_classification_CNN\\wandb\\run-20250116_122552-gvbjav3g\\logs\\debug-core.log"}
+{"time":"2025-01-16T12:25:55.617382+01:00","level":"INFO","msg":"created new stream","id":"gvbjav3g"}
+{"time":"2025-01-16T12:25:55.6184751+01:00","level":"INFO","msg":"stream: started","id":"gvbjav3g"}
+{"time":"2025-01-16T12:25:55.6184751+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"gvbjav3g"}
+{"time":"2025-01-16T12:25:55.6190078+01:00","level":"INFO","msg":"sender: started","stream_id":"gvbjav3g"}
+{"time":"2025-01-16T12:25:55.6190078+01:00","level":"INFO","msg":"handler: started","stream_id":"gvbjav3g"}
+{"time":"2025-01-16T12:25:55.6415411+01:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-01-16T12:25:57.7685738+01:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-01-16T12:26:02.5566428+01:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-01-16T12:26:10.9282315+01:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-01-16T12:26:29.2394222+01:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-01-16T12:27:24.162656+01:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": EOF"}
+{"time":"2025-01-16T12:27:24.6065655+01:00","level":"INFO","msg":"stream: closing","id":"gvbjav3g"}
+{"time":"2025-01-16T12:27:24.6073814+01:00","level":"ERROR","msg":"sender: upsertRun:","error":"failed to upsert bucket: api: failed sending: context canceled"}
+{"time":"2025-01-16T12:27:24.6083063+01:00","level":"INFO","msg":"handler: closed","stream_id":"gvbjav3g"}
+{"time":"2025-01-16T12:27:24.6083063+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"gvbjav3g"}
+{"time":"2025-01-16T12:27:24.6088249+01:00","level":"INFO","msg":"sender: closed","stream_id":"gvbjav3g"}
+{"time":"2025-01-16T12:27:24.6095833+01:00","level":"WARN","msg":"runwork: ignoring record after close","work":{}}
+{"time":"2025-01-16T12:27:24.6102417+01:00","level":"INFO","msg":"stream: closed","id":"gvbjav3g"}

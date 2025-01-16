@@ -15,10 +15,17 @@ class ESC50Dataset(Dataset):
         self.num_samples = num_samples
 
         # Filter annotations for selected classes
+        # This filters the annotations DataFrame to include only rows where the "category"
+        # column contains one of the `selected_classes`. The index is reset to ensure a clean
+        # sequential order without gaps from the filtered DataFrame.
         self.annotations = self.annotations[self.annotations["category"].isin(selected_classes)].reset_index(drop=True)
 
         # Map class labels to indices
+        # Create a mapping of class names to unique numerical indices. This is essential for converting
+        # the class labels (e.g., "airplane", "helicopter") into numerical values required for the
+        # machine learning model. The mapping is stored in the `self.class_mapping` dictionary.
         self.class_mapping = {category: idx for idx, category in enumerate(selected_classes)}
+
 
     def __len__(self):
         return len(self.annotations)

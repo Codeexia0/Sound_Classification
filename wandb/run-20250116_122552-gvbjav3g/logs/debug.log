@@ -1,0 +1,25 @@
+2025-01-16 12:25:52,682 INFO    MainThread:17388 [wandb_setup.py:_flush():68] Current SDK version is 0.19.2
+2025-01-16 12:25:52,682 INFO    MainThread:17388 [wandb_setup.py:_flush():68] Configure stats pid to 17388
+2025-01-16 12:25:52,683 INFO    MainThread:17388 [wandb_setup.py:_flush():68] Loading settings from C:\Users\Codeexia\.config\wandb\settings
+2025-01-16 12:25:52,683 INFO    MainThread:17388 [wandb_setup.py:_flush():68] Loading settings from C:\Users\Codeexia\FinalSemester\Thesis\practice\AI_project\pytorchforaudio\sound_classification_CNN\wandb\settings
+2025-01-16 12:25:52,683 INFO    MainThread:17388 [wandb_setup.py:_flush():68] Loading settings from environment variables
+2025-01-16 12:25:52,684 INFO    MainThread:17388 [wandb_init.py:_log_setup():523] Logging user logs to C:\Users\Codeexia\FinalSemester\Thesis\practice\AI_project\pytorchforaudio\sound_classification_CNN\wandb\run-20250116_122552-gvbjav3g\logs\debug.log
+2025-01-16 12:25:52,686 INFO    MainThread:17388 [wandb_init.py:_log_setup():524] Logging internal logs to C:\Users\Codeexia\FinalSemester\Thesis\practice\AI_project\pytorchforaudio\sound_classification_CNN\wandb\run-20250116_122552-gvbjav3g\logs\debug-internal.log
+2025-01-16 12:25:52,687 INFO    MainThread:17388 [wandb_init.py:init():641] calling init triggers
+2025-01-16 12:25:52,687 INFO    MainThread:17388 [wandb_init.py:init():647] wandb.init called with sweep_config: {}
+config: {}
+2025-01-16 12:25:52,688 INFO    MainThread:17388 [wandb_init.py:init():674] starting backend
+2025-01-16 12:25:53,267 INFO    MainThread:17388 [wandb_init.py:init():678] sending inform_init request
+2025-01-16 12:25:53,354 INFO    MainThread:17388 [backend.py:_multiprocessing_setup():104] multiprocessing start_methods=spawn, using: spawn
+2025-01-16 12:25:53,356 INFO    MainThread:17388 [wandb_init.py:init():693] backend started and connected
+2025-01-16 12:25:53,360 INFO    MainThread:17388 [wandb_init.py:init():786] updated telemetry
+2025-01-16 12:25:53,524 INFO    MainThread:17388 [wandb_init.py:init():818] communicating run to backend with 90.0 second timeout
+2025-01-16 12:27:24,419 ERROR   MainThread:17388 [wandb_init.py:init():845] encountered error: Run initialization has timed out after 90.0 sec. Please try increasing the timeout with the `init_timeout` setting: `wandb.init(settings=wandb.Settings(init_timeout=120))`.
+2025-01-16 12:27:24,420 ERROR   MainThread:17388 [wandb_init.py:init():1299] error in wandb.init()
+Traceback (most recent call last):
+  File "C:\Users\Codeexia\FinalSemester\Thesis\practice\.venv\lib\site-packages\wandb\sdk\wandb_init.py", line 1289, in init
+    return wi.init()
+  File "C:\Users\Codeexia\FinalSemester\Thesis\practice\.venv\lib\site-packages\wandb\sdk\wandb_init.py", line 851, in init
+    raise error
+wandb.errors.errors.CommError: Run initialization has timed out after 90.0 sec. Please try increasing the timeout with the `init_timeout` setting: `wandb.init(settings=wandb.Settings(init_timeout=120))`.
+2025-01-16 12:27:24,601 WARNING MsgRouterThr:17388 [router.py:message_loop():75] message_loop has been closed
